@@ -5,7 +5,7 @@ body{
   background-size: cover;
   height: 100vh;
 }
-@media screen and (max-width: 425){
+@media screen and (max-width: 600){
   body{
     background-position: center;
     background-size: 500vh;
