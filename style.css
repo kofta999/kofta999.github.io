@@ -4,6 +4,12 @@ body{
   background: url("wp1858938-steinsgate-wallpapers.jpg") no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 600px){
+  body{
+    background-position: center;
+    background-size: cover;
+  }
+}
 .box{
   width: 450px;
   background: rgba(0, 0, 0, 0.4);
