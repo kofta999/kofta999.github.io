@@ -3,6 +3,13 @@ body{
   padding: 0;
   background: url("wp1858938-steinsgate-wallpapers.jpg") no-repeat;
   background-size: cover;
+  height: 100vh;
+}
+@media screen and (max-width: 425){
+  body{
+    background-position: center;
+    background-size: 500vh;
+  }
 }
 .box{
   width: 450px;
